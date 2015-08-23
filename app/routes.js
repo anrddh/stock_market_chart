@@ -1,4 +1,3 @@
-var Stock    = require('./models/stock.js').stock;
 var Quandl = require('quandl');
 var quandl = new Quandl({
     auth_token: "Zdc7xqF9Y5tFuJh8dTjn"
