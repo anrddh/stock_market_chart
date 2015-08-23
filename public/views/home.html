@@ -1,0 +1,14 @@
+<aside>
+    <form ng-submit="addStock()">
+        <input type="text" class="form-control" placeholder="Add stock" ng-model="stock" required>
+    </form>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="stock in series">
+            {{stock}}<span class="badge"><span ng-click="removeStock(stock)" class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
+        </li>
+    </ul>
+</aside>
+<section>
+    <canvas id="line" class="chart chart-line" data="data" labels="labels" legend="true" series="series" click="onClick"></canvas>
+</section>
+<div class="clear"></div>

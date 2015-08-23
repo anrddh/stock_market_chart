@@ -1,0 +1,20 @@
+aside {
+    float:left;
+    width: 20%;
+}
+
+section {
+    width: 75%;
+    position: absolute;
+    top: 10px;
+    float: right;
+    margin-left: 22.5%;
+}
+
+form {
+
+}
+
+.clear {
+    clear: both;
+}
