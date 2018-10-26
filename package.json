@@ -18,6 +18,12 @@
     "express": "^4.13.3",
     "method-override": "^2.3.5",
     "morgan": "^1.6.1",
-    "quandl": "0.0.4"
-  }
+    "quandl": "0.0.4",
+    "snyk": "^1.105.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
